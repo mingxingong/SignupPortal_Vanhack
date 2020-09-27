@@ -13,7 +13,6 @@ $resultCheck = mysqli_num_rows($result);
 if ($resultCheck > 0) {
     echo "<br>";
     while ($row = mysqli_fetch_assoc($result)) {
-        // echo "Got INTO SEEALL!!!";
         echo '<br>';
         echo 'Program Faculty: ' . $row['faculty'];
     }
@@ -25,4 +24,4 @@ if ($resultCheck > 0) {
 ?>
 <link href="./css/search.css" type="text/css" rel="stylesheet">
 <br>
-<input type="button" value="Back" class="button" id="backbtncustomer" onClick="document.location.href='EmployeeIn.php'">
+<input type="button" value="Back" class="button" id="backbtnemployee" onClick="document.location.href='EmployeeIn.php'">

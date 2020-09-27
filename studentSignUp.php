@@ -10,18 +10,12 @@ if ($correctInfo) {
     $studentID = mysqli_real_escape_string($conn, $_POST["studentID"]);
     $phone = mysqli_real_escape_string($conn, $_POST["phone"]);
 
-    // echo '<br>';
-    // echo ($username);
-    // echo ($firstname);
-    // echo ($lastname);
-    // echo ($phone);
 
     $sql = "INSERT INTO student VALUES ('$studentID', '$studentFirstName', '$studentLastName', '$phone');";
 
     mysqli_query($conn, $sql);
     echo "<br>";
     echo "sign up success, please go back an log in with your new account";
-    // header("Location: index.php?signup=success"); // redirect web page
 } else {
     echo "<br>";
     echo "invalid information";
@@ -29,4 +23,4 @@ if ($correctInfo) {
 ?>
 <link href="./css/signup.css" type="text/css" rel="stylesheet">
 <br>
-<input type="button" value="Back" class="button" id="backbtncustomer" onClick="document.location.href='studentSignIn.php'">
+<input type="button" value="Back" class="button" id="backbtnstudent" onClick="document.location.href='studentSignIn.php'">

@@ -17,12 +17,13 @@ html{
 }
 
 .card {
-  color: black;
-  border: 5px solid black;
+  color: white;
+  border: 5px solid white;
   width: 2000px;
   height: 570px;
   margin-right: 15px;
   padding: 10px;
+  background-image: url(../images/ca45b8e64347b04ae81ed77cd0442f50.jpg);
   background-position: cover;
   opacity: 0.85;
 }

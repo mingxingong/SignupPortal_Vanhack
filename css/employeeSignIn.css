@@ -1,0 +1,50 @@
+html{
+	background-image: url(../images/128666-glowing-abstract-light-color-wave-background.jpg);
+	background-position: cover;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	text-align: center;
+}
+.login{
+
+	background-color: white;
+	background-repeat: no-repeat;
+	border: 5px solid #f1f1f1;
+	border-radius: 5px;
+	padding: 10px;
+	width: 600px;
+	margin: auto;
+	opacity: 0.90;
+
+}
+
+.signup{
+
+	background-color: white;
+	background-repeat: no-repeat;
+	border: 5px solid #f1f1f1;
+	border-radius: 5px;
+	padding: 10px;
+	width: 600px;
+	margin: auto;
+	opacity: 0.90;
+
+}
+h1{
+	text-align: center;
+}
+form{
+	text-align: center;
+	margin: 10px;
+}
+input{
+	margin: 10px;
+}
+button{
+		  font-family: 'verdana';
+	font-size: 14px;
+	background-color: black;
+	color:white;
+	padding: 10px 20px;
+	margin: 10px;
+}

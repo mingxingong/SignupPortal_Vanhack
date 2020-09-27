@@ -4,14 +4,14 @@ session_start();
 $studentID = $_SESSION['studentID'];
 ?>
 
-<link href="./css/student_in.css" type="text/css" rel="stylesheet">
+<link href="./css/studentIn.css" type="text/css" rel="stylesheet">
 
 <h1>You can search or modify your personal information here</h1>
 
 <div class="scrollmenu">
     <div class="card">
         <h2>Search for all of your informations</h2>
-        <form class="search-order" action="studentInfo.php" method="POST">
+        <form class="search" action="studentInfo.php" method="POST">
             <button type="submit" name="searchbutton">Search</button>
         </form>
     </div>
@@ -28,14 +28,14 @@ $studentID = $_SESSION['studentID'];
             echo "<br>";
             while ($row = mysqli_fetch_assoc($result)) {
                 echo '<br>';
-                echo 'Program Facuulty: ' . $row['faculty'];
+                echo 'Program Faculty: ' . $row['faculty'];
             }
         } else {
             echo 'You are not registered into any program yet';
         }
         ?>
         <h2>Register to program here: Chem(0), Bio(1), Physics(2), Earth Science(3)</h2>
-        <form class="change-phone" action="studentRegisterProgram.php" method="POST">
+        <form class="change" action="studentRegisterProgram.php" method="POST">
 
             <input type="text" placeholder="Program To Register" name="programToRegister"><br>
             <button type="submit" name="submit">Submit</button>
@@ -44,4 +44,4 @@ $studentID = $_SESSION['studentID'];
 </div>
 
 
-<input type="button" value="Logout" class="button" id="backbtncourier" onClick="document.location.href='index.php'">
+<input type="button" value="Logout" class="button" id="backbtnmain" onClick="document.location.href='index.php'">

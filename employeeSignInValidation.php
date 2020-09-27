@@ -26,4 +26,4 @@ if (isset($_POST["employeeID"]) && isset($_POST["employeeName"])&& !empty($_POST
 ?>
 <link href="./css/employee_validation.css" type="text/css" rel="stylesheet">
 <br>
-<input type="button" value="Back" class="button" id="backbtncustomer" onClick="document.location.href='EmployeeSignIn.php'">
+<input type="button" value="Back" class="button" id="backbtnemployee" onClick="document.location.href='EmployeeSignIn.php'">

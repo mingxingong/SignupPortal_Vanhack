@@ -24,4 +24,4 @@ if ($correctInfo) {
 ?>
 <link href="./css/signup.css" type="text/css" rel="stylesheet">
 <br>
-<input type="button" value="Back" class="button" id="backbtncustomer" onClick="document.location.href='customer.php'">
+<input type="button" value="Back" class="button" id="backbtnstudent" onClick="document.location.href='studentSignIn.php'">

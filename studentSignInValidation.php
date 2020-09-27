@@ -26,4 +26,4 @@ if (isset($_POST["studentFirstName"]) && isset($_POST["studentID"]) && !empty($_
 ?>
 <link href="./css/student_validation.css" type="text/css" rel="stylesheet">
 <br>
-<input type="button" value="Back" class="button" id="backbtncustomer" onClick="document.location.href='studentSignIn.php'">
+<input type="button" value="Back" class="button" id="backbtnstudent" onClick="document.location.href='studentSignIn.php'">

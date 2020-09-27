@@ -4,7 +4,7 @@ session_start();
 $employeeID = $_SESSION['employeeID'];
 ?>
 
-<link href="./css/employee_in.css" type="text/css" rel="stylesheet">
+<link href="./css/employeeIn.css" type="text/css" rel="stylesheet">
 
 <h1>You can search or modify your personal information here</h1>
 
@@ -35,4 +35,4 @@ $employeeID = $_SESSION['employeeID'];
 </div>
 
 
-<input type="button" value="Logout" class="button" id="backbtncourier" onClick="document.location.href='index.php'">
+<input type="button" value="Logout" class="button" id="backbtnmain" onClick="document.location.href='index.php'">

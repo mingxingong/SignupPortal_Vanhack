@@ -26,4 +26,4 @@ $result = mysqli_query($conn, $sql);
 ?>
 <link href="./css/register.css" type="text/css" rel="stylesheet">
 <br>
-<input type="button" value="Back" class="button" id="backbtncustomer" onClick="document.location.href='studentIn.php'">
+<input type="button" value="Back" class="button" id="backbtnstudent" onClick="document.location.href='studentIn.php'">
